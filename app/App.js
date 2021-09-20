@@ -68,14 +68,14 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#ebebeb',
     alignItems: 'center',
     justifyContent: 'center',
   },
   maintext: {
-    fontSize: 16,
+    fontSize: 20,
     margin: 20,
-    marginTop: 5
+    marginTop: 10
   },
   barcodebox: {
     alignItems: 'center',
@@ -84,6 +84,6 @@ const styles = StyleSheet.create({
     width: 300,
     overflow: 'hidden',
     borderRadius: 30,
-    backgroundColor: 'tomato'
+    backgroundColor: '#272727'
   }
 });
