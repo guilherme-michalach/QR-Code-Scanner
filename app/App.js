@@ -17,7 +17,7 @@ export default function App() {
     })()
   }
 
-  // Request Camera Permission
+  // Pedir permissão de câmera
 
   useEffect(() => {
     askForCameraPerm();
